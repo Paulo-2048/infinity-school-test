@@ -7,7 +7,7 @@ class Connection:
     
     def connect(self):
         try:
-            self.con = mysql.connector.connect(host='127.0.0.1', database='ig_store', user='root', password='19032004pvss')
+            self.con = mysql.connector.connect(host='127.0.0.1', database='ig_store', user='root', password='senha')
             if self.con.is_connected():
                 return True 
         except Error as e:
