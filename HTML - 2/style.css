@@ -1,0 +1,15 @@
+.img-home img {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.img-home h1 {
+    position: absolute;
+    font-size: 8em;
+    text-shadow: 2px 2px 2px #CE5937;
+}
+
+section h2 {
+    text-shadow: 2px 2px 2px #CE5937;
+}
